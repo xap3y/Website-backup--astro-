@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    cursor: url('./icons/left_ptr.png'), pointer;
+    touch-action: manipulation;
 }
 
 body{
@@ -22,6 +24,7 @@ body{
 #mainNav nav ul li a{
     text-decoration: none;
     margin-right: 50px;
+    cursor: url('./icons/hand2.png'), pointer;
 }
 
 #mainNav nav ul li{
