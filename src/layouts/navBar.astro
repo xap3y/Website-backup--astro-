@@ -1,0 +1,43 @@
+---
+const navItems = [
+    {
+      name: "Home",
+      link: "/",
+    },
+    {
+      name: "About",
+      link: "/about",
+    },
+    {
+      name: "Projects",
+      link: "/projects",
+    },
+    {
+      name: "Blog",
+      link: "/blog",
+    },
+    {
+      name: "Docs",
+      link: "/docs",
+    },
+  ];
+
+import { site } from "../config";
+---
+
+<div id="mainNav">
+    <h1 class="header textWhite fontOpenSans">{site.header}</h1>
+    <nav>
+        <ul>
+            {
+            navItems.map((item) => (
+                <li>
+                    <a href={item.link} class="textWhite fontMontserrat">
+                    {item.name}
+                    </a>
+                </li>
+                ))
+            }
+        </ul>
+    </nav>
+</div>
