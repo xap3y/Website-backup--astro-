@@ -30,7 +30,7 @@ export const socials = [
   export const skills = [
     {
       name: "TypeScript",
-      icon: "https://api.iconify.design/vscode-icons:file-type-typescript-official.svg",
+      icon: "https://api.iconify.design/logos:typescript-icon.svg",
     },
     {
       name: "JavaScript",
