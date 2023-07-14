@@ -30,39 +30,39 @@ export const socials = [
   export const skills = [
     {
       name: "TypeScript",
-      icon: "logos:typescript-icon",
+      icon: "https://api.iconify.design/vscode-icons:file-type-typescript-official.svg",
     },
     {
       name: "JavaScript",
-      icon: "logos:javascript",
+      icon: "https://api.iconify.design/logos:javascript.svg",
     },
     {
       name: "NodeJS",
-      icon: "logos:nodejs-icon-alt",
+      icon: "https://api.iconify.design/logos:nodejs-icon.svg",
     },
     {
       name: "Python",
-      icon: "logos:python",
+      icon: "https://api.iconify.design/logos:python.svg",
     },
     {
       name: "React",
-      icon: "devicon:react",
+      icon: "https://api.iconify.design/logos:react.svg",
     },
     {
       name: "NextJS",
-      icon: "teenyicons:nextjs-outline",
+      icon: "https://api.iconify.design/teenyicons:nextjs-outline.svg",
     },
     {
       name: "Astro",
-      icon: "vscode-icons:file-type-astro",
+      icon: "https://api.iconify.design/vscode-icons:file-type-astro.svg",
     },
     {
       name: "TailwindCSS",
-      icon: "logos:tailwindcss-icon",
+      icon: "https://api.iconify.design/logos:tailwindcss-icon.svg",
     },
     {
       name: "Sublime Texteditor",
-      icon: "logos:sublimetext-icon",
+      icon: "https://api.iconify.design/logos:sublimetext-icon.svg",
     },
     {
       name: "Kotlin",
@@ -70,39 +70,39 @@ export const socials = [
     },
     {
       name: "npm",
-      icon: "logos:python",
+      icon: "https://api.iconify.design/logos:npm-icon.svg",
     },
     {
       name: "pnpm",
-      icon: "logos:pnpm",
+      icon: "https://api.iconify.design/logos:pnpm.svg",
     },
     {
       name: "MySQL",
-      icon: "logos:mysql-icon",
+      icon: "https://api.iconify.design/logos:mysql.svg",
     },
     {
       name: "Git",
-      icon: "logos:git-icon",
+      icon: "https://api.iconify.design/logos:git-icon.svg",
     },
     {
       name: "GitHub",
-      icon: "mdi:github",
+      icon: "https://api.iconify.design/bi:github.svg",
     },
     {
       name: "Cloudflare",
-      icon: "logos:cloudflare",
+      icon: "https://api.iconify.design/logos:cloudflare.svg",
     },
     {
       name: "Visual Studio Code",
-      icon: "logos:visual-studio-code",
+      icon: "https://api.iconify.design/logos:visual-studio-code.svg",
     },
     {
       name: "Visual Studio",
-      icon: "skill-icons:visualstudio-light"
+      icon: "https://api.iconify.design/logos:visual-studio.svg"
     },
     {
       name: "IntelliJ IDEA",
-      icon: "logos:intellij-idea",
+      icon: "https://api.iconify.design/logos:intellij-idea.svg",
     },
   ] satisfies {
     name: string;
