@@ -211,3 +211,42 @@ body{
 .hand2{
     cursor: url('./icons/hand2.png'), pointer;
 }
+
+#contacts{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts span{
+    margin-right: 100px;
+}
+
+#contacts ul{
+    list-style-type: none;
+    display: block;
+}
+
+#contacts ul li svg{
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+}
+
+#contacts ul li img{
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+}
+
+#contacts ul li{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+#contacts ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
