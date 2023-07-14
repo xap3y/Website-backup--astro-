@@ -1,7 +1,6 @@
 ---
 import Layout from '@layouts/Layout.astro';
 import Navbar from "@layouts/navBar.astro";
-import { Icon } from 'astro-icon'
 import { skills } from "../config";
 
 ---
@@ -23,7 +22,7 @@ import { skills } from "../config";
 					skills.map((skill) => (
 						<li>
 							<span title={skill.name}>
-								<Icon name={skill.icon} />
+								<img src={skill.icon} />
 							</span>
 						</li>
 					))

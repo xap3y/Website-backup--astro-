@@ -66,7 +66,7 @@ export const socials = [
     },
     {
       name: "Kotlin",
-      icon: "logos:kotlin-icon",
+      icon: "https://api.iconify.design/logos:kotlin-icon.svg",
     },
     {
       name: "npm",
