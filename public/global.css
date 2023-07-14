@@ -79,18 +79,24 @@ body{
     display: flex;
     justify-content: center;
     color: white;
+    margin-left: -40px;
 }
 
 h2{
     color: white;
     font-family: 'Signika Negative', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
-#wrapper{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
+#logopng{
+    width: 250px;
+    height: 250px;
+}
+
+#wrapper {
+    margin-right: 70px;
+    margin-top: 270px;
+    display: flex;
     justify-content: center;
-    margin-top: 300px;
+    align-items: center;
 }

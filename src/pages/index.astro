@@ -9,23 +9,26 @@ import { socials } from "../config";
 <Layout>
 	<Navbar />
 	<div id="wrapper">
-		<h2><b>XAP3X_</b></h2>
-		<div id="indexDiv">
-			<br>
-			<ul>
-				{
-				socials.map((social) => (
-					<li>
-						<a href={social.link} title={social.name}>
-							<img
-							src={`/icons/${social.icon}`}
-							alt={`${social.name} icon`}
-							/>
-						</a>
-					</li>
-				))
-				}
-			</ul>
+		<img id="logopng" src="/icons/logo.png">
+		<div id="wrapper2">
+			<h2><b>XAP3X_</b></h2>
+			<div id="indexDiv">
+				<br>
+				<ul>
+					{
+					socials.map((social) => (
+						<li>
+							<a href={social.link} title={social.name}>
+								<img
+								src={`/icons/${social.icon}`}
+								alt={`${social.name} icon`}
+								/>
+							</a>
+						</li>
+					))
+					}
+				</ul>
+			</div>
 		</div>
 	</div>
 </Layout>
