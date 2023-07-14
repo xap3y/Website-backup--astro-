@@ -27,3 +27,84 @@ export const socials = [
     icon: string;
   }[];
   
+  export const skills = [
+    {
+      name: "TypeScript",
+      icon: "logos:typescript-icon",
+    },
+    {
+      name: "JavaScript",
+      icon: "logos:javascript",
+    },
+    {
+      name: "NodeJS",
+      icon: "logos:nodejs-icon-alt",
+    },
+    {
+      name: "Python",
+      icon: "logos:python",
+    },
+    {
+      name: "React",
+      icon: "devicon:react",
+    },
+    {
+      name: "NextJS",
+      icon: "teenyicons:nextjs-outline",
+    },
+    {
+      name: "Astro",
+      icon: "vscode-icons:file-type-astro",
+    },
+    {
+      name: "TailwindCSS",
+      icon: "logos:tailwindcss-icon",
+    },
+    {
+      name: "Sublime Texteditor",
+      icon: "logos:sublimetext-icon",
+    },
+    {
+      name: "Kotlin",
+      icon: "logos:kotlin-icon",
+    },
+    {
+      name: "npm",
+      icon: "logos:python",
+    },
+    {
+      name: "pnpm",
+      icon: "logos:pnpm",
+    },
+    {
+      name: "MySQL",
+      icon: "logos:mysql-icon",
+    },
+    {
+      name: "Git",
+      icon: "logos:git-icon",
+    },
+    {
+      name: "GitHub",
+      icon: "mdi:github",
+    },
+    {
+      name: "Cloudflare",
+      icon: "logos:cloudflare",
+    },
+    {
+      name: "Visual Studio Code",
+      icon: "logos:visual-studio-code",
+    },
+    {
+      name: "Visual Studio",
+      icon: "skill-icons:visualstudio-light"
+    },
+    {
+      name: "IntelliJ IDEA",
+      icon: "logos:intellij-idea",
+    },
+  ] satisfies {
+    name: string;
+    icon: string;
+}[];

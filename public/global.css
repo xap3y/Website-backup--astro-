@@ -90,12 +90,6 @@ body{
     margin-left: -40px;
 }
 
-h2{
-    color: white;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 50px;
-}
-
 #logopng{
     width: 250px;
     height: 250px;
@@ -107,4 +101,71 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#wrapper h2 {
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+}
+
+#aboutDiv {
+    color: white;
+    margin-top: 100px;
+}
+
+#aboutDiv h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#aboutDiv h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#aboutText {
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#aboutText p {
+    font-size: 25px;
+}
+
+#aboutText p a{
+    cursor: url('./icons/hand2.png'), pointer;
+    text-decoration: none;
+    color: rgb(192, 125, 38)
+}
+
+#aboutText h3{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#aboutText ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#technologies {
+    border-radius: 6px;
+    border: 1px solid rgb(48, 48, 48);
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 40px;
+}
+
+#technologies ul li span{
+    width: 20px;
+    height: 20px;
 }

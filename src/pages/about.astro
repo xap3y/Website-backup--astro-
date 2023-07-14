@@ -1,9 +1,35 @@
 ---
 import Layout from '@layouts/Layout.astro';
 import Navbar from "@layouts/navBar.astro";
+import { Icon } from 'astro-icon'
+import { skills } from "../config";
 
 ---
 
 <Layout>
 	<Navbar />
+	<div id="aboutDiv">
+		<h2>About me</h2>
+		<div id="aboutText">
+			<p>Im random dude from Czech Republic that enjoy coding. 
+				I am a developer with a passion for creating innovative solutions, and I am currently engaged in various projects.
+				Some of my work is open-source avaible on <a href="https://github.com/XAP3xOnTop">GitHub</a>.
+			</p>
+			<h3>Technology Im using</h3>
+			<div id="technologies">
+				<ul>
+					{
+					skills.map((skill) => (
+						<li>
+							<span title={skill.name}>
+								<Icon name="devicon:react"/>
+							</span>
+						</li>
+					))
+					}
+				</ul>
+			</div>
+			<p>I'm still learning with some things like Kotlin, so I don't have a perfect grasp of them, but I've included them in this list anyway.</p>
+		</div>
+	</div>
 </Layout>
