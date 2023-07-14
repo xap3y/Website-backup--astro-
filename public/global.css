@@ -55,3 +55,43 @@ body{
     font-size: 25px;
     margin-left: 210px;
 }
+
+#indexDiv ul li a{
+    margin-right: 15px;
+    cursor: url('./icons/hand2.png'), pointer;
+    height: 32px;
+    width: 32px;
+}
+
+#indexDiv ul li a img{
+    cursor: url('./icons/hand2.png'), pointer;
+    height: 32px;
+    width: 32px;
+    transition: .3s;
+}
+
+#indexDiv ul li img:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+}
+
+#indexDiv ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+#wrapper{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 300px;
+}

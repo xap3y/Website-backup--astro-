@@ -2,8 +2,30 @@
 import Layout from '@layouts/Layout.astro';
 import Navbar from "@layouts/navBar.astro";
 
+import { socials } from "../config";
+
 ---
 
 <Layout>
 	<Navbar />
+	<div id="wrapper">
+		<h2>XAP3X_</h2>
+		<div id="indexDiv">
+			<br>
+			<ul>
+				{
+				socials.map((social) => (
+					<li>
+						<a href={social.link} title={social.name}>
+							<img
+							src={`/icons/${social.icon}`}
+							alt={`${social.name} icon`}
+							/>
+						</a>
+					</li>
+				))
+				}
+			</ul>
+		</div>
+	</div>
 </Layout>
