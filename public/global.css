@@ -49,8 +49,9 @@ body{
     padding-bottom: 13px;
 }
 
-#mainNav a{
+#h1{
     text-decoration: none;
+    cursor: url('./icons/hand2.png'), pointer;
     font-size: 25px;
     margin-left: 210px;
 }
