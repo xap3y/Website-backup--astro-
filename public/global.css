@@ -23,8 +23,16 @@ body{
 
 #mainNav nav ul li a{
     text-decoration: none;
+    display: inline-block;
     margin-right: 50px;
     cursor: url('./icons/hand2.png'), pointer;
+    transition: .4s;
+}
+
+#mainNav nav ul li a:hover{
+    color:rgb(163, 93, 2);
+    transform: translateY(-1px);
+    transition: .3s;
 }
 
 #mainNav nav ul li{
