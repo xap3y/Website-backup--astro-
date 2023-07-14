@@ -50,7 +50,7 @@ export const socials = [
     },
     {
       name: "NextJS",
-      icon: "https://api.iconify.design/teenyicons:nextjs-outline.svg",
+      icon: "https://api.iconify.design/skill-icons:nextjs-light.svg",
     },
     {
       name: "Astro",
@@ -86,7 +86,7 @@ export const socials = [
     },
     {
       name: "GitHub",
-      icon: "https://api.iconify.design/bi:github.svg",
+      icon: "https://api.iconify.design/skill-icons:github-light.svg",
     },
     {
       name: "Cloudflare",

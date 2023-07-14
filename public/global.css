@@ -5,6 +5,16 @@
     touch-action: manipulation;
 }
 
+::selection {
+    color: none;
+    background: none;
+}
+
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
 body{
     background-color: black;
 }
@@ -154,19 +164,45 @@ body{
     border-radius: 6px;
     border: 1px solid rgb(48, 48, 48);
     display: flex;
-    justify-content: flex-start;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
-    height: 40px;
+    justify-content: center;
 }
 
-#technologies ul li span{
-    width: 20px;
-    height: 20px;
+#technologies ul{
+    display: flex;
+    overflow: auto;
+    transition: max-height 0.5s ease;
 }
+
+#technologies ul li img{
+    padding-top: 2px;
+    margin-top: 2px;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+#technologies ul li{
+    list-style: none;
+}
+
+#technologies ul li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#technologies ul li div {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
 
 .clrGold{
     color: rgb(192, 125, 38)
