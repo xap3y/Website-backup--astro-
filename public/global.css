@@ -135,9 +135,7 @@ body{
 }
 
 #aboutText p a{
-    cursor: url('./icons/hand2.png'), pointer;
     text-decoration: none;
-    color: rgb(192, 125, 38)
 }
 
 #aboutText h3{
@@ -168,4 +166,12 @@ body{
 #technologies ul li span{
     width: 20px;
     height: 20px;
+}
+
+.clrGold{
+    color: rgb(192, 125, 38)
+}
+
+.hand2{
+    cursor: url('./icons/hand2.png'), pointer;
 }

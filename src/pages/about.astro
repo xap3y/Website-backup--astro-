@@ -13,7 +13,8 @@ import { skills } from "../config";
 		<div id="aboutText">
 			<p>Im random dude from Czech Republic that enjoy coding. 
 				I am a developer with a passion for creating innovative solutions, and I am currently engaged in various projects.
-				Some of my work is open-source avaible on <a href="https://github.com/XAP3xOnTop">GitHub</a>.
+				Some of my work is open-source avaible on <a href="https://github.com/XAP3xOnTop" class="clrGold hand2">GitHub</a>.
+				I'm using arch linux EndeavourOS distro. You can view my PC specs <span class="clrGold hand2">here</span>.
 			</p>
 			<h3>Technology Im using</h3>
 			<div id="technologies">
@@ -22,7 +23,7 @@ import { skills } from "../config";
 					skills.map((skill) => (
 						<li>
 							<span title={skill.name}>
-								
+								<Icon name={skill.icon} />
 							</span>
 						</li>
 					))
