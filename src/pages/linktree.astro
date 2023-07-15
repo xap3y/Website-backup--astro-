@@ -1,26 +1,29 @@
 ---
 import Layout from '@layouts/Layout.astro';
 import Navbar from "@layouts/navBar.astro";
-const Links = [
-    {
-      name: "GitHub",
-      link: "https://github.com/XAP3xOnTop",
-    },
-    {
-      name: "Instagram",
-      link: "https://instagram.com/xap.3x",
-    },
-    {
-      name: "My Discord",
-      link: "/projects",
-    },
-    {
-      name: "Spigot MC",
-      link: "https://www.spigotmc.org/members/minecubek.797215/",
-    },
-];
+
+import { linktree } from "~/config";
+
 ---
 
 <Layout>
 	<Navbar />
+  <div id="linktree">
+    <h2>Links</h2>
+    <div id="linktreeDiv">
+      <ul>
+        {
+          linktree.map((link) => (
+            <li>
+              <a href={link.link}>
+                <div class="linkDiv hand2" style={{ "background-color": link.backgroundcolor}}>
+                  <p class="hand2" style={{ color: link.color}}>{link.name}</p>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
 </Layout>

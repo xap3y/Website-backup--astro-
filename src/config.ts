@@ -21,13 +21,13 @@ export const socials = [
       link: "https://www.spigotmc.org/members/minecubek.797215/",
       icon: "spigotmc.png",
     },
-  ] satisfies {
+] satisfies {
     name: string;
     link: string;
     icon: string;
-  }[];
+}[];
   
-  export const skills = [
+export const skills = [
     {
       name: "TypeScript",
       icon: "https://api.iconify.design/logos:typescript-icon.svg",
@@ -107,4 +107,48 @@ export const socials = [
   ] satisfies {
     name: string;
     icon: string;
+}[];
+
+export const linktree = [
+  {
+    name: "GitHub",
+    link: "https://github.com/XAP3xOnTop",
+    backgroundcolor: "gray",
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/xap.3x/",
+    backgroundcolor: "purple",
+  },
+  {
+    name: "Spigot MC",
+    link: "https://www.spigotmc.org/members/minecubek.797215/",
+    backgroundcolor: "orange",
+  },
+  {
+    name: "Discord",
+    link: "https://discordapp.com/users/853316867544449025",
+    backgroundcolor: "gray",
+  },
+  {
+    name: "Ko-Fi",
+    link: "https://ko-fi.com/xap3x",
+    backgroundcolor: "pink",
+  },
+  {
+    name: "SnapChat",
+    link: "https://t.snapchat.com/Ke6oWvaV",
+    backgroundcolor: "#decc00",
+    color: "#c7c7c7",
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/xap3xdev",
+    backgroundcolor: "blue",
+  },
+] satisfies {
+  name: string;
+  link: string;
+  backgroundcolor: string;
+  color?: string;
 }[];

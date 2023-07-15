@@ -3,7 +3,8 @@
   "compilerOptions": {
     "paths": {
       "@layouts/*": ["src/layouts/*"],
-      "@public": ["public/*"]
+      "@public/*": ["public/*"],
+      "~/*": ["src/*"]
     }
   }
 }

@@ -23,6 +23,14 @@ body{
     color: white;
 }
 
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
 .fontOpenSans{
     font-family: 'Open Sans', sans-serif;
 }
@@ -122,11 +130,6 @@ body{
 #aboutDiv {
     color: white;
     margin-top: 100px;
-}
-
-#aboutDiv h2 {
-    text-align: center;
-    font-size: 50px;
 }
 
 #aboutDiv h2 {
@@ -249,4 +252,63 @@ body{
 #contacts ul li a{
     text-decoration: none;
     font-size: 25px;
+}
+
+#linktreeDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    margin-left: 18px;
+}
+
+#linktree{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#linktree h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#linktreeDiv ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#linktreeDiv li{
+    flex: 0 0 15%;
+    max-width: 20%;
+}
+
+.linkDiv{
+    display: flex;
+    margin-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:white;
+    width: 220px;
+    height: 50px;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 10px;
+}
+
+.linkDiv p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2px;
+    color: rgb(224, 224, 224)
+}
+
+#linktreeDiv ul li a{
+    text-decoration: none;
 }
