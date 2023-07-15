@@ -288,6 +288,7 @@ p{
 }
 
 .linkDiv{
+    transition: .3s;
     display: flex;
     margin-bottom: 45px;
     justify-content: center;
@@ -311,4 +312,9 @@ p{
 
 #linktreeDiv ul li a{
     text-decoration: none;
+}
+
+.linkDiv:hover{
+    transform: translateY(-3px);
+    transition: .3s;
 }
