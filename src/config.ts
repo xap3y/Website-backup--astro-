@@ -53,6 +53,10 @@ export const skills = [
       icon: "https://api.iconify.design/skill-icons:nextjs-light.svg",
     },
     {
+        name: "Bun",
+        icon: "https://api.iconify.design/logos/bun.svg",
+    },
+    {
       name: "Astro",
       icon: "https://api.iconify.design/vscode-icons:file-type-astro.svg",
     },
