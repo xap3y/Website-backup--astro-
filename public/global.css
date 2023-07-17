@@ -47,12 +47,6 @@ p{
     transition: .4s;
 }
 
-@media only screen and (max-width: 600px) {
-    #mainNav nav ul li a{
-        margin-right: 10px;
-        font-size: 15px;
-    }
-}
 
 #mainNav nav ul li a:hover{
     color:rgb(163, 93, 2);
@@ -87,12 +81,6 @@ p{
     cursor: url('./icons/hand2.png'), pointer;
     font-size: 25px;
     margin-left: 210px;
-}
-
-@media only screen and (max-width: 600px) {
-    #h1{
-        margin-left: 10px;
-    }
 }
 
 
@@ -135,12 +123,6 @@ p{
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-    #wrapper {
-        margin-top: 190px;
-    }
-}
-
 #wrapper h2 {
     color: white;
     font-family: 'Signika Negative', sans-serif;
@@ -152,11 +134,6 @@ p{
     margin-top: 100px;
 }
 
-@media only screen and (max-width: 600px) {
-    #aboutDiv{
-        margin-top: 70px;
-    }
-}
 
 #aboutDiv h2 {
     text-align: center;
@@ -167,13 +144,6 @@ p{
     margin-top: 100px;
     margin-left: 120px;
     margin-right: 120px;
-}
-
-@media only screen and (max-width: 600px) {
-    #aboutText{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 }
 
 #aboutText p {
@@ -257,6 +227,7 @@ p{
 
 #contacts span{
     margin-right: 100px;
+    display: block;
 }
 
 #contacts ul{
@@ -274,13 +245,6 @@ p{
     width: 32px;
     height: 32px;
     margin-right: 7px;
-}
-
-@media only screen and (max-width: 600px) {
-    #contacts ul li img{
-        width: 20px;
-        height: 20px;
-    }
 }
 
 #contacts ul li{
@@ -342,12 +306,6 @@ p{
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    #linktreeDiv ul{
-        display: block;
-    }
-}
-
 .linkDiv p{
     font-size: 25px;
     font-weight: bold;
@@ -363,4 +321,41 @@ p{
 .linkDiv:hover{
     transform: translateY(-3px);
     transition: .3s;
+}
+
+@media only screen and (max-width: 600px) {
+    #contacts{
+        flex-direction: column;
+    }
+
+    #contacts span{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #aboutText{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #aboutDiv{
+        margin-top: 70px;
+    }
+
+    #wrapper {
+        margin-top: 190px;
+    }
+
+    #mainNav nav ul li a{
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    #h1{
+        margin-left: 10px;
+    }
+
+    #linktreeDiv ul{
+        display: block;
+    }
 }
