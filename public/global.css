@@ -82,6 +82,13 @@ p{
     margin-left: 210px;
 }
 
+@media only screen and (max-width: 600px) {
+    #h1{
+        margin-left: 10px;
+    }
+}
+
+
 #indexDiv ul li a{
     margin-right: 15px;
     height: 32px;
