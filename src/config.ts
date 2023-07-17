@@ -21,6 +21,11 @@ export const socials = [
       link: "https://www.spigotmc.org/members/minecubek.797215/",
       icon: "spigotmc.png",
     },
+    {
+      name: "Ko-Fi",
+      link: "https://ko-fi.com/xap3x",
+      icon: "kofi.svg",
+    }
 ] satisfies {
     name: string;
     link: string;
