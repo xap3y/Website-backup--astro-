@@ -135,6 +135,12 @@ p{
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        margin-top: 190px;
+    }
+}
+
 #wrapper h2 {
     color: white;
     font-family: 'Signika Negative', sans-serif;
