@@ -47,6 +47,13 @@ p{
     transition: .4s;
 }
 
+@media only screen and (max-width: 600px) {
+    #mainNav nav ul li a{
+        margin-right: 10px;
+        font-size: 10px;
+    }
+}
+
 #mainNav nav ul li a:hover{
     color:rgb(163, 93, 2);
     transform: translateY(-1px);
@@ -139,6 +146,12 @@ p{
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+    #aboutDiv{
+        margin-top: 70px;
+    }
+}
+
 #aboutDiv h2 {
     text-align: center;
     font-size: 50px;
@@ -148,6 +161,13 @@ p{
     margin-top: 100px;
     margin-left: 120px;
     margin-right: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    #aboutText{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 #aboutText p {
