@@ -50,7 +50,7 @@ p{
 @media only screen and (max-width: 600px) {
     #mainNav nav ul li a{
         margin-right: 10px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
@@ -70,7 +70,7 @@ p{
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    margin-right: 170px;
+    margin-right: 10px;
 }
 
 #mainNav{
