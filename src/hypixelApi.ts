@@ -13,7 +13,8 @@ export async function getAH(page: Number) {
     })
     .then((response) => response.json())
     .then((data) => {
-        return data
+        return
+        //return data
     })
 }
 
