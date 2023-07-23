@@ -1,11 +1,22 @@
 ---
 import Layout from '@layouts/Layout.astro';
 import Navbar from "@layouts/navBar.astro";
+import { getAH } from "~/hypixelApi"
 ---
 
 <Layout>
 	<Navbar />
     <div id="hypixelDiv">
         <h2>Coming soon..</h2>
+        {
+            getAH(0).then((data: any) =>
+            data.auctions.map((item: any) => (
+                <span>Item: {item.item_name} <br>
+                Cost: {item.starting_bid}<br>
+                Command: <span class="cmd">/viewauction {item.uuid}</span></span><br>
+                <br>
+            ))
+        )
+        }
     </div>
 </Layout>

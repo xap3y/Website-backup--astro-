@@ -10,10 +10,8 @@
     background: none;
 }
 
-::-moz-selection {
-    color: none;
-    background: none;
-}
+
+
 
 body{
     background-color: black;
@@ -363,4 +361,13 @@ p{
     text-align: center;
     margin-top: 200px;
     font-size: 80px;
+}
+
+#hypixelDiv span{
+    color: white;
+}
+
+#hypixelDiv span .cmd::selection{
+    color: white!important;
+    background-color: blue!important;
 }

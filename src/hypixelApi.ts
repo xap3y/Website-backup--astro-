@@ -1,12 +1,14 @@
-const url = "https://api.hypixel.net"
+let apikey = process.env.apikey
+
+const url: String = "https://api.hypixel.net"
 
 
-async function getPlayer(uuid: String) {
-    return fetch(`${url}/player?uuid=${uuid}`, {
+export async function getAH(page: Number) {
+    return await fetch(`${url}/skyblock/auctions?page=${page}`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
-            "API-Key": "",
+            "API-Key": `${apikey}`,
         },
     })
     .then((response) => response.json())
