@@ -152,7 +152,7 @@ export const linktree = [
   },
   {
     name: "BeReal",
-    link: "BeRe.al/xap3x",
+    link: "https://BeRe.al/xap3x",
     backgroundcolor: "black",
   },
   {
