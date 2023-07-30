@@ -151,6 +151,11 @@ export const linktree = [
     color: "#c7c7c7",
   },
   {
+    name: "BeReal",
+    link: "BeRe.al/xap3x",
+    backgroundcolor: "black",
+  },
+  {
     name: "Twitter",
     link: "https://twitter.com/xap3xdev",
     backgroundcolor: "blue",
