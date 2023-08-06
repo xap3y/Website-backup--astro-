@@ -147,7 +147,7 @@ export const linktree = [
   {
     name: "SkyCrypt",
     link: "https://sky.shiiyu.moe/stats/XAP3X_/Raspberry",
-    color: "green",
+    backgroundcolor: "green",
   },
   {
     name: "SnapChat",
