@@ -150,6 +150,11 @@ export const linktree = [
     backgroundcolor: "green",
   },
   {
+    name: "Fiverr",
+    link: "https://www.fiverr.com/s/34RWkm",
+    backgroundcolor: "green",
+  },
+  {
     name: "SnapChat",
     link: "https://t.snapchat.com/Ke6oWvaV",
     backgroundcolor: "#decc00",
