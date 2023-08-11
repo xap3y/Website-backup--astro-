@@ -3,6 +3,11 @@
     padding: 0px;
     cursor: url('./icons/left_ptr.png'), pointer;
     touch-action: manipulation;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 ::selection {
