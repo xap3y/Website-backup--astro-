@@ -121,12 +121,12 @@ export const skills = [
 export const linktree = [
   {
     name: "GitHub",
-    link: "https://github.com/XAP3xOnTop",
+    link: "https://github.com/xap3y",
     backgroundcolor: "gray",
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/xap.3x/",
+    link: "https://www.instagram.com/xap.3y/",
     backgroundcolor: "purple",
   },
   {
@@ -141,12 +141,12 @@ export const linktree = [
   },
   {
     name: "Ko-Fi",
-    link: "https://ko-fi.com/xap3x",
+    link: "https://ko-fi.com/xap3y",
     backgroundcolor: "pink",
   },
   {
     name: "SkyCrypt",
-    link: "https://sky.shiiyu.moe/stats/XAP3X_/Raspberry",
+    link: "https://sky.shiiyu.moe/stats/XAP3Y/Raspberry",
     backgroundcolor: "green",
   },
   {
