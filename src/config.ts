@@ -1,7 +1,7 @@
 export const site = {
-    title: "XAP3X_",
+    title: "XAP3Y",
     csspath: "/global.css",
-    header: "XAP3X_",
+    header: "XAP3Y",
     description: "I'm XAP3X_ :>"
 }
 
