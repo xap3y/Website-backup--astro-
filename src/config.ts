@@ -8,12 +8,12 @@ export const site = {
 export const socials = [
     {
       name: "GitHub",
-      link: "https://github.com/XAP3xOnTop",
+      link: "https://github.com/xap3y",
       icon: "github.svg",
     },
     {
       name: "Instagram",
-      link: "https://www.instagram.com/xap.3x/",
+      link: "https://www.instagram.com/xap.3y/",
       icon: "instagram.svg",
     },
     {
@@ -23,7 +23,7 @@ export const socials = [
     },
     {
       name: "Ko-Fi",
-      link: "https://ko-fi.com/xap3x",
+      link: "https://ko-fi.com/xap3y",
       icon: "kofi.svg",
     }
 ] satisfies {
