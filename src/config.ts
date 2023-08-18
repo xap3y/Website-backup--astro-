@@ -110,8 +110,8 @@ export const skills = [
       icon: "https://api.iconify.design/logos:visual-studio-code.svg",
     },
     {
-      name: "Visual Studio",
-      icon: "https://api.iconify.design/logos:visual-studio.svg"
+      name: "Visual Studio Insiders",
+      icon: "/icons/vsinsiders.png"
     },
     {
       name: "IntelliJ IDEA",
