@@ -78,6 +78,10 @@ export const skills = [
       icon: "https://api.iconify.design/logos:kotlin-icon.svg",
     },
     {
+      name: "Skript",
+      icon: "/icons/39464898.png",
+    },
+    {
       name: "npm",
       icon: "https://api.iconify.design/logos:npm-icon.svg",
     },
