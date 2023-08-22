@@ -13,7 +13,7 @@ export const socials = [
     },
     {
       name: "Instagram",
-      link: "https://www.instagram.com/xap.3y/",
+      link: "https://www.instagram.com/xap3y.dev/",
       icon: "instagram.svg",
     },
     {
@@ -130,7 +130,7 @@ export const linktree = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/xap.3y/",
+    link: "https://www.instagram.com/xap3y.dev/",
     backgroundcolor: "purple",
   },
   {
