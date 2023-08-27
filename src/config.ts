@@ -46,6 +46,10 @@ export const skills = [
       icon: "https://api.iconify.design/logos:nodejs-icon.svg",
     },
     {
+        name: "Bun",
+        icon: "https://api.iconify.design/logos/bun.svg",
+    },
+    {
       name: "Python",
       icon: "https://api.iconify.design/logos:python.svg",
     },
@@ -56,10 +60,6 @@ export const skills = [
     {
       name: "NextJS",
       icon: "https://api.iconify.design/skill-icons:nextjs-light.svg",
-    },
-    {
-        name: "Bun",
-        icon: "https://api.iconify.design/logos/bun.svg",
     },
     {
       name: "Astro",
@@ -104,10 +104,6 @@ export const skills = [
     {
       name: "Cloudflare",
       icon: "https://api.iconify.design/logos:cloudflare.svg",
-    },
-    {
-      name: "Visual Studio Code",
-      icon: "https://api.iconify.design/logos:visual-studio-code.svg",
     },
     {
       name: "Visual Studio Insiders",
