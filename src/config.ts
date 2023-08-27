@@ -2,7 +2,7 @@ export const site = {
     title: "XAP3Y",
     csspath: "/global.css",
     header: "XAP3Y",
-    description: "I'm XAP3X_ :>"
+    description: "I'm XAP3Y :>"
 }
 
 export const socials = [
