@@ -110,6 +110,10 @@ export const skills = [
       icon: "/icons/vsinsiders.png"
     },
     {
+        name: "Csharp",
+        icon: "https://api.iconify.design/devicon:csharp.svg"
+    },
+    {
       name: "IntelliJ IDEA",
       icon: "https://api.iconify.design/logos:intellij-idea.svg",
     },
