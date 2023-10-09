@@ -5,7 +5,6 @@ import { skills } from "~/config";
 ---
 
 <Layout>
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<Navbar />
 	<div id="aboutDiv">
 		<h2>About me</h2>
@@ -46,9 +45,11 @@ import { skills } from "~/config";
 			</selection>
 		</div>
 	</div>
-	<script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" is:inline></script>
+	<script is:inline>
 		$( document ).ready(function() {
-			discordCard.attr("src", "https://lanyard.cnrad.dev/api/853316867544449025")
+			console.log("e")
+			$("#discordCard").attr("src", "https://lanyard.cnrad.dev/api/853316867544449025")
 		});
 	</script>
 </Layout>
