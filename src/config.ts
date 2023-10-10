@@ -118,12 +118,16 @@ export const skills = [
       icon: "https://api.iconify.design/logos:intellij-idea.svg",
     },
     {
-      name: "IntelliJ Rider",
+      name: "JetBrains Rider",
       icon: "https://api.iconify.design/logos:rider.svg",
     },
     {
-      name: "IntelliJ DataGrip",
+      name: "JetBrains DataGrip",
       icon: "https://api.iconify.design/logos:datagrip.svg",
+    },
+    {
+        name: "JetBrains WebStorm",
+        icon: "https://api.iconify.design/logos:webstorm.svg",
     },
   ] satisfies {
     name: string;
