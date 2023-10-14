@@ -47,5 +47,10 @@ import { skills } from "~/config";
 	$(document).ready(function () {
 		$("#discordCard").attr("src", "https://lanyard.cnrad.dev/api/853316867544449025")
 	});
+
+	function updateImg(){
+		$("#discordCard").attr("src", "https://lanyard.cnrad.dev/api/853316867544449025");
+	}
+	setInterval(updateImg(), 5000);
 	</script>
 </Layout>
