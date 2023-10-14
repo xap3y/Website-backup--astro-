@@ -35,47 +35,39 @@ export const socials = [
 export const skills = [
     {
       name: "TypeScript",
-      icon: "https://api.iconify.design/logos:typescript-icon.svg",
+      icon: "logos:typescript-icon",
     },
     {
       name: "JavaScript",
-      icon: "https://api.iconify.design/logos:javascript.svg",
+      icon: "logos:javascript",
     },
     {
       name: "NodeJS",
-      icon: "https://api.iconify.design/logos:nodejs-icon.svg",
+      icon: "logos:nodejs-icon",
     },
     {
-        name: "Bun",
-        icon: "https://api.iconify.design/logos/bun.svg",
+      name: "Bun",
+      icon: "logos:bun",
     },
     {
       name: "Python",
-      icon: "https://api.iconify.design/logos:python.svg",
-    },
-    {
-      name: "React",
-      icon: "https://api.iconify.design/logos:react.svg",
-    },
-    {
-      name: "NextJS",
-      icon: "https://api.iconify.design/skill-icons:nextjs-light.svg",
+      icon: "logos:python",
     },
     {
       name: "Astro",
-      icon: "https://api.iconify.design/vscode-icons:file-type-astro.svg",
+      icon: "vscode-icons:file-type-astro",
     },
     {
       name: "TailwindCSS",
-      icon: "https://api.iconify.design/logos:tailwindcss-icon.svg",
-    },
-    {
-      name: "Sublime Texteditor",
-      icon: "https://api.iconify.design/logos:sublimetext-icon.svg",
+      icon: "logos:tailwindcss-icon",
     },
     {
       name: "Kotlin",
-      icon: "https://api.iconify.design/logos:kotlin-icon.svg",
+      icon: "logos:kotlin-icon",
+    },
+    {
+      name: "Maven",
+      icon: "devicon:maven",
     },
     {
       name: "Skript",
@@ -83,51 +75,51 @@ export const skills = [
     },
     {
       name: "npm",
-      icon: "https://api.iconify.design/logos:npm-icon.svg",
+      icon: "logos:npm-icon",
     },
     {
       name: "pnpm",
-      icon: "https://api.iconify.design/logos:pnpm.svg",
+      icon: "logos:pnpm",
     },
     {
       name: "MySQL",
-      icon: "https://api.iconify.design/logos:mysql.svg",
+      icon: "logos:mysql",
     },
     {
       name: "Git",
-      icon: "https://api.iconify.design/logos:git-icon.svg",
+      icon: "logos:git-icon",
     },
     {
       name: "GitHub",
-      icon: "https://api.iconify.design/skill-icons:github-light.svg",
+      icon: "mdi:github",
     },
     {
       name: "Cloudflare",
-      icon: "https://api.iconify.design/logos:cloudflare.svg",
+      icon: "logos:cloudflare-icon",
     },
     {
       name: "Visual Studio Insiders",
-      icon: "/icons/vsinsiders.png"
+      icon: "vscode-icons:file-type-vscode-insiders"
     },
     {
         name: "Csharp",
-        icon: "https://api.iconify.design/devicon:csharp.svg"
+        icon: "devicon:csharp"
     },
     {
       name: "IntelliJ IDEA",
-      icon: "https://api.iconify.design/logos:intellij-idea.svg",
+      icon: "logos:intellij-idea",
     },
     {
       name: "JetBrains Rider",
-      icon: "https://api.iconify.design/logos:rider.svg",
+      icon: "logos:rider",
     },
     {
       name: "JetBrains DataGrip",
-      icon: "https://api.iconify.design/logos:datagrip.svg",
+      icon: "logos:datagrip",
     },
     {
         name: "JetBrains WebStorm",
-        icon: "https://api.iconify.design/logos:webstorm.svg",
+        icon: "logos:webstorm",
     },
   ] satisfies {
     name: string;
