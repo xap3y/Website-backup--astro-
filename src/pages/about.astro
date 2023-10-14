@@ -44,13 +44,15 @@ import { skills } from "~/config";
 	</div>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" is:inline></script>
 	<script is:inline>
-	$(document).ready(function () {
-		$("#discordCard").attr("src", "https://lanyard.cnrad.dev/api/853316867544449025")
-	});
 
 	function updateImg(){
 		$("#discordCard").attr("src", "https://lanyard.cnrad.dev/api/853316867544449025");
 	}
+
+	$(document).ready(function () {
+		updateImg()
+	});
+
 	setInterval(updateImg(), 5000);
 	</script>
 </Layout>
