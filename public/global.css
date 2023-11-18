@@ -353,9 +353,12 @@ p{
     #contacts{
         flex-direction: column;
     }
+    #wrapper2 h2{
+        font-size: 35px;
+    }
 
     #contacts span{
-        margin-right: 0px;
+        margin-right: 0;
         margin-bottom: 20px;
     }
 
