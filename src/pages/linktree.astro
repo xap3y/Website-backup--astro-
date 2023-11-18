@@ -8,6 +8,10 @@ import { linktree } from "~/config";
 
 <Layout>
 	<Navbar />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js" is:inline></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <div id="linktree">
     <h2>Links</h2>
     <div id="linktreeDiv">
@@ -15,10 +19,14 @@ import { linktree } from "~/config";
         {
           linktree.map((link) => (
             <li>
-              <a href={link.link}>
-                <div class="linkDiv hand2" style={{ "background-color": link.backgroundcolor}}>
-                  <p class="hand2" style={{ color: link.color}}>{link.name}</p>
-                </div>
+              <a class="hand2" href={link.link}>
+                  <button
+                          class="hand2 shadow-md shadow-slate-700 group w-[90%] mb-5 hover:bg-sky-600 relative rounded text-neutral-50 duration-500 font-bold flex justify-start items-center p-2 pr-6"
+                          style={{ "background-color": link.backgroundcolor} }>
+                      <span class="iconify hand2 w-8 h-8 fill-neutral-50 mr-2" data-icon={link.img}></span>
+                      <span class="hand2 border-l-2 px-1">{link.name}</span>
+                  </button>
+
               </a>
             </li>
           ))
