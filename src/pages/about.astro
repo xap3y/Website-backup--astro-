@@ -16,11 +16,11 @@ import { Tooltips } from 'astro-tooltips';
 				I'm using arch linux EndeavourOS distro. I'm playing minecraft (mainly <a href="https://sky.shiiyu.moe/stats/XAP3Y/Raspberry" class="clrGold hand2">hypixel skyblock</a>), cs2, valorant and some mobile games.
 			</p>
 			<h3>Technology Im using</h3>
-			<ul class="my-5 mx-auto flex justify-center gap-5 py-5 border border-gray-400 rounded w-max px-10">
+			<ul class="overflow-hidden my-5 mx-auto flex justify-center gap-5 py-5 border border-gray-400 rounded w-max px-10">
 				{
 					skills.map((skill) => (
-						<Tooltips interactive={false} delay={[15, 125]} placement="top" />
-						<li title={skill.name}>
+						<Tooltips class="overflow-hidden" interactive={false} delay={[15, 125]} placement="top" />
+						<li class="overflow-hidden" title={skill.name}>
 							{
 								!skill.icon.startsWith("/") &&
 								<span class="iconify h-[30px] w-[30px]" data-icon={skill.icon}></span>
