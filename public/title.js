@@ -1,5 +1,16 @@
 const title = "XAP3Y"
 $(document).ready(async () => {
+    new cursoreffects.fairyDustCursor({
+        colors: ["#634aa5"]
+    });
+
+    snowStorm.snowColor = '#f0edf7';
+    snowStorm.flakesMaxActive = 80;
+    snowStorm.useTwinkleEffect = true;
+    snowStorm.autoStart = true;
+    snowStorm.freezeOnBlur = false;
+    snowStorm.excludeMobile = false;
+
     thread()
     for (let i = 0; i <= "XAP3X".length; i++) {
         $("#h1Name").text($("#h1Name").text() + "XAP3X".charAt(i))
@@ -11,11 +22,11 @@ $(document).ready(async () => {
     $("#h1Name").text("XAP3Y")
 })
 
+
 async function thread() {
     await sleep(500);
     while(true){
         for (let i = 1; i < title.length; i++) {
-            //console.log("XD: " + result)
             document.title = "@" + title.slice(0, -i);
             await sleep(250);
         }
@@ -37,3 +48,10 @@ async function thread() {
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+/*!
+ * SnowFlakes Cursor.js
+ * - 90's cursors collection
+ * -- https://github.com/tholman/90s-cursor-effects
+ * -- https://codepen.io/tholman/full/oYJQZx
+ */

@@ -27,7 +27,6 @@ body, html{
     background-color: black;
     height: 100%;
     max-width: 100%;
-    overflow-y: initial;
 }
 
 #bg{
@@ -37,8 +36,8 @@ body, html{
     display: block;
     width: 100%;
     background-size: cover;
-    position: relative;
     overflow: hidden;
+    position: absolute;
 }
 
 .textWhite{
@@ -141,6 +140,7 @@ p{
     margin-right: 70px;
     margin-top: 270px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -155,6 +155,7 @@ p{
     animation: fadeIn 1s;
     color: white;
     margin-top: 100px;
+    position: absolute;
 }
 
 
